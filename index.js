@@ -27,11 +27,11 @@ $(document).ready(function(){
 
 $btn.mouseenter(function(){
     // alert("kjbjkbvj")
-    $b.hide()
+    $b.hide(2000)
 })
 $btn.dblclick(function(){
     // alert("kjbjkbvj")
-    $b.show();
+    $b.show(1000);
 
 })
 
@@ -55,8 +55,6 @@ $inp.keydown(function(){
         "background": "orange"
     })
 })
-
-
 })
 
 
